@@ -12,7 +12,7 @@ public class Whale extends Animal {
 	public String speak() {
 		return "ooga";
 	}
-	
+
 	@Override
 	public String move() {
 		return "swims";

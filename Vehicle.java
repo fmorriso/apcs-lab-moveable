@@ -47,8 +47,10 @@ public abstract class Vehicle implements Moveable {
 	@Override
 	public String toString() {
 		// Example: Vehicle 747 is a plane that carries 400 and it flies
-		return String.format("%s %s is a %s that carries %d and it %s", Vehicle.class.getName(), this.name,
-				this.getClass().getSimpleName().toLowerCase(), this.getMaximumPassengers(), this.move());
+		return String.format("%s %s is a %s that carries %d and it %s",
+				Vehicle.class.getName(), this.name,
+				this.getClass().getSimpleName().toLowerCase(),
+				this.getMaximumPassengers(), this.move());
 	}
 
 }

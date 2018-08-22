@@ -12,7 +12,7 @@ public class Dog extends Animal {
 	public String move() {
 		return "runs";
 	}
-	
+
 	@Override
 	public String speak() {
 		return "Woof";
