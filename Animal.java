@@ -29,7 +29,8 @@ public abstract class Animal implements Moveable {
 	 * 
 	 */
 	public String toString() {
-		return String.format("%s %s is a %s that says %s and it %s", Animal.class.getName(), this.name, this.getClass().getSimpleName(), this.speak(), this.move());
+		return String.format("%s %s is a %s that says %s and it %s", Animal.class.getName(), this.name,
+				this.getClass().getSimpleName().toLowerCase(), this.speak(), this.move());
 	}
 
 	// this method should return a string indicating what the Animal says.
