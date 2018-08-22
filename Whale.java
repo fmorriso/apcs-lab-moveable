@@ -1,4 +1,7 @@
-
+/**
+ * @author Fred Morrison
+ *
+ */
 public class Whale extends Animal {
 
 	public Whale(String name) {
@@ -10,6 +13,7 @@ public class Whale extends Animal {
 		return "ooga";
 	}
 	
+	@Override
 	public String move() {
 		return "swims";
 	}

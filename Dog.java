@@ -1,4 +1,7 @@
-
+/**
+ * @author Fred Morrison
+ *
+ */
 public class Dog extends Animal {
 
 	public Dog(String name) {
@@ -14,7 +17,5 @@ public class Dog extends Animal {
 	public String speak() {
 		return "Woof";
 	}
-
-
 
 }
