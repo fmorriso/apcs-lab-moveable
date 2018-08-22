@@ -22,10 +22,14 @@ public abstract class Animal implements Moveable {
 		return name;
 	}
 
-	// @return a String representation of this Animal
-	//
+	/*
+	 * Returns a string representation of this class
+	 * 
+	 * Example: Animal Fido is a dog that says Woof and it runs
+	 * 
+	 */
 	public String toString() {
-		return "Animal " + name;
+		return String.format("%s %s is a %s that says %s and it %s", Animal.class.getName(), this.name, this.getClass().getSimpleName(), this.speak(), this.move());
 	}
 
 	// this method should return a string indicating what the Animal says.
@@ -33,7 +37,6 @@ public abstract class Animal implements Moveable {
 
 	@Override
 	public String move() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 

@@ -1,8 +1,16 @@
-
+/**
+ * @author Fred Morrison
+ *
+ */
 public class Driver {
 
 	public static void main(String[] args) {
-		System.out.println("Driver on different computer");
+		
+		Animal fido = new Dog("Fido");
+		System.out.println(fido.toString());
+		
+		Animal whale = new Whale("Free Willy");
+		System.out.println(whale.toString());
 	}
 
 }
