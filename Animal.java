@@ -28,7 +28,7 @@ public abstract class Animal implements Moveable {
 	 * Example: Animal Fido is a dog that says Woof and it runs
 	 * 
 	 */
-	public String toString() {
+	public String toString() {	
 		return String.format("%s %s is a %s that says %s and it %s",
 				Animal.class.getName(), this.name,
 				this.getClass().getSimpleName().toLowerCase(), this.speak(),
