@@ -11,11 +11,17 @@ public class Dog extends Animal {
 		super(name);
 	}
 
+	/* returns information about how this particular animal moves
+	 * @see Animal#move()
+	 */
 	@Override
 	public String move() {
 		return MOVE;
 	}
 
+	/* returns information about how this particular animal speaks
+	 * @see Animal#speak()
+	 */
 	@Override
 	public String speak() {
 		return SOUND;

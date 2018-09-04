@@ -1,4 +1,4 @@
-/**
+/** This is the driver that creates and manipulates the vehicles and animals in this project
  * @author Fred Morrison
  *
  */
