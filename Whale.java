@@ -20,5 +20,18 @@ public class Whale extends Animal {
 	public String move() {
 		return MOVE;
 	}
+	
+	
+	/* get a string representation of an instance of this class
+	 * @
+	 */
+	@Override
+	public String toString() {
+		return String.format("%s is a %s that says %s and it %s",
+				super.toString(),
+				this.getClass().getSimpleName().toLowerCase(), 
+				this.speak(),
+				this.move());
+	}
 
 }

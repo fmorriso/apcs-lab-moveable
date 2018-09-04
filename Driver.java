@@ -16,7 +16,8 @@ public class Driver {
 		System.out.println(jet.toString());
 
 		Vehicle taxi = new Sedan("Toyota Camry", 5);
-		System.out.println(taxi.toString());
+		System.out.println(taxi.toString());		
+				
 	}
 
 }
