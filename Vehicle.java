@@ -39,6 +39,9 @@ public abstract class Vehicle implements Moveable {
 		this.name = name;
 	}
 
+	/*  returns a string that describes how an instance of this class moves around
+	 *
+	 */
 	@Override
 	public String move() {
 		return null;
